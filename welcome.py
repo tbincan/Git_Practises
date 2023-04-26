@@ -3,7 +3,6 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "<h1>WELCOME TO TURAN CYBER HUB</h1>"  \
-           "<h2>Git Class Hands On</h2>"
            "<h3>The third line</h3>"
            "<h4>the forth line</h4>"
            "<h5>the fifth line</h5>"
